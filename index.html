@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instant Workflow</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg fixed-top px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Instant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+               dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated Link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a class="btn btn-yellow" href="#">Get Started</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-content">
+        <h1>Transform Your Workflow With<br><span id="typing-text"></span></h1>
+        <p class="lead">
+          Our innovative platform empowers businesses to <br>
+          enhance their productivity and achieve unparalleled <br>
+          operational efficiency across diverse industries.
+        </p>
+        <div class="mt-4">
+          <a href="#" class="btn btn-yellow me-3">Discover More Today →</a>
+          <a href="#" class="btn btn-outline-light"><i class="fa fa-play me-2"></i>Watch a Quick Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE SECTION -->
+  <section class="image-section position-relative">
+      <div class="container-fluid position-relative">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="position-relative">
+              <img src="image/girl.webp" alt="Working Woman" class="img-fluid animated-image" />
+              <div class="info-box top-left">
+                <i class="fas fa-chart-line"></i>
+                <div class="info-text">
+                  <strong>89%</strong>
+                  <small>Success Benchmark</small>
+                </div>
+              </div>
+              <div class="info-box bottom-right">
+                <i class="fa fa-users"></i>
+                <div class="info-text">
+                  <strong>500+</strong>
+                  <small>Satisfied Clients</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- OUR STORY -->
+   <section class="our-story-section py-5" style="background-color: #000; color: #fff;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="image/people.webp" alt="Team Image" class="img-fluid rounded shadow story-img" />
+      </div>
+      <div class="col-lg-6">
+        <div class="position-relative d-inline-block mb-3">
+          <span class="heading-underline"></span>
+          <h2 class="mb-0" style="font-weight: bold;">Our Story</h2>
+        </div>
+        <h5 class="text-warning mb-4" style="font-size: 1rem;">Crafting innovative solutions since 2010</h5>
+        <p class="mb-4" style="color: #ccc;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel mauris in magna fringilla finibus. Suspendisse potenti. Integer ut fringilla mi, a aliquam risus. Maecenas ac nibh magna. Aenean fringilla lobortis ex, sit amet iaculis eros facilisis nec.
+        </p>
+
+        <div class="row text-center text-md-start">
+          <div class="col-md-6 mb-4">
+            <div class="p-4 h-100 transition-box">
+              <i class="fas fa-award text-warning mb-2"></i>
+              <h6 class="fw-bold">Excellence</h6>
+              <p style="color: #bbb; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="p-4 h-100 transition-box">
+              <i class="fas fa-lightbulb text-warning mb-2"></i>
+              <h6 class="fw-bold">Innovation</h6>
+              <p style="color: #bbb; font-size: 0.95rem;">Proin vel mauris in magna fringilla finibus.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="p-4 h-100 transition-box">
+              <i class="fas fa-users text-warning mb-2"></i>
+              <h6 class="fw-bold">Community</h6>
+              <p style="color: #bbb; font-size: 0.95rem;">Suspendisse potenti. Integer ut fringilla mi.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="p-4 h-100 transition-box">
+              <i class="fas fa-chart-line text-warning mb-2"></i>
+              <h6 class="fw-bold">Growth</h6>
+              <p style="color: #bbb; font-size: 0.95rem;">Maecenas ac nibh magna. Aenean fringilla lobortis ex.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <a href="#" class="btn btn-yellow me-3">Learn More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">
+        <span class="title-text">Features</span>
+        <span class="underline"></span>
+      </h2>
+      <p class="subtitle">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h3 class="feature-heading">Powerful features to accelerate growth</h3>
+        <p class="description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+        <div class="row mt-4">
+          <div class="col-4">
+            <h5 class="stat-value">150+</h5>
+            <p class="stat-label">Features</p>
+          </div>
+          <div class="col-4">
+            <h5 class="stat-value">99.9%</h5>
+            <p class="stat-label">Uptime</p>
+          </div>
+          <div class="col-4">
+            <h5 class="stat-value">24/7</h5>
+            <p class="stat-label">Support</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="image/work.webp" alt="Feature Image" class="feature-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Cards Section -->
+<section class="feature-cards-section py-5">
+  <div class="container">
+    <div class="row g-4">
+    
+      <div class="col-md-4">
+        <div class="feature-box">
+          <div class="icon-container">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h5 class="feature-title">Lightning Fast Performance</h5>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <div class="tags">
+            <span class="tag">Speed</span>
+            <span class="tag">Optimization</span>
+          </div>
+          <div class="feature-number">01</div>
+          <div class="top-line"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-box">
+          <div class="icon-container">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h5 class="feature-title">Enterprise Security</h5>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sed.</p>
+          <div class="tags">
+            <span class="tag">Secure</span>
+            <span class="tag">Protected</span>
+          </div>
+          <div class="feature-number">02</div>
+          <div class="top-line"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-box">
+          <div class="icon-container">
+            <i class="fas fa-users"></i>
+          </div>
+          <h5 class="feature-title">Team Collaboration</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="tags">
+            <span class="tag">Teamwork</span>
+            <span class="tag">Sync</span>
+          </div>
+          <div class="feature-number">03</div>
+          <div class="top-line"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-box">
+          <div class="icon-container">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h5 class="feature-title">Advanced Analytics</h5>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis.</p>
+          <div class="tags">
+            <span class="tag">Data</span>
+            <span class="tag">Insights</span>
+          </div>
+          <div class="feature-number">04</div>
+          <div class="top-line"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-box">
+          <div class="icon-container">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h5 class="feature-title">Smart Automation</h5>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+          <div class="tags">
+            <span class="tag">AI</span>
+            <span class="tag">Workflow</span>
+          </div>
+          <div class="feature-number">05</div>
+          <div class="top-line"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="feature-box">
+          <div class="icon-container">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h5 class="feature-title">Cloud Integration</h5>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam.</p>
+          <div class="tags">
+            <span class="tag">Cloud</span>
+            <span class="tag">Scalable</span>
+          </div>
+          <div class="feature-number">06</div>
+          <div class="top-line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Innovation Excellence Section -->
+<section class="innovation-section">
+  <div class="innovation-content-box">
+  <div class="row mb-4">
+      <div class="col-12 d-flex justify-content-center flex-wrap">
+        <div class="innovation-tab active">
+          <i class="fas fa-rocket"></i>
+          <div>
+            <h6>Innovation</h6>
+            <small>Cutting-edge solutions</small>
+          </div>
+        </div>
+        <div class="innovation-tab">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <h6>Security</h6>
+            <small>Advanced protection</small>
+          </div>
+        </div>
+        <div class="innovation-tab">
+          <i class="fas fa-bolt"></i>
+          <div>
+            <h6>Performance</h6>
+            <small>Lightning fast speed</small>
+          </div>
+        </div>
+        <div class="innovation-tab">
+          <i class="fas fa-headset"></i>
+          <div>
+            <h6>Support</h6>
+            <small>24/7 assistance</small>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Content -->
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="icon-box mb-3">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h3 class="text-white fw-bold">Innovation Excellence</h3>
+        <p class="text-muted mb-4">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis.
+        </p>
+        <div class="row mb-4">
+          <div class="col-sm-6">
+            <p class="text-white"><i class="fas fa-check text-warning me-2"></i>Excepteur sint occaecat cupidatat non proident</p>
+            <p class="text-white"><i class="fas fa-check text-warning me-2"></i>At vero eos et accusamus et iusto odio</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-white"><i class="fas fa-check text-warning me-2"></i>Sunt in culpa qui officia deserunt mollit anim</p>
+            <p class="text-white"><i class="fas fa-check text-warning me-2"></i>Et harum quidem rerum facilis est et expedita</p>
+          </div>
+        </div>
+        <div class="d-flex gap-4 mb-4">
+          <div>
+            <h5 class="text-warning mb-0">99%</h5>
+            <small class="text-muted">UPTIME</small>
+          </div>
+          <div>
+            <h5 class="text-warning mb-0">50K+</h5>
+            <small class="text-muted">USERS</small>
+          </div>
+          <div>
+            <h5 class="text-warning mb-0">24/7</h5>
+            <small class="text-muted">SUPPORT</small>
+          </div>
+        </div>
+        <a href="#" class="btn btn-yellow">Learn More →</a>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="innovation-image-container">
+          <img src="image/phone.webp" alt="Innovation" class="img-fluid">
+          <div class="performance-tag">
+  <div class="performance-first-line">
+    <i class="fas fa-chart-line"></i>
+    <span class="performance-text">Performance</span>
+  </div>
+  <span class="performance-value">+85% Improvement</span>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+    <h2 class="section-title">Services</h2>
+     <p class="subtitle">
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+      </p>
+</div>
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6">
+        <span class="badge-what">★ What We Do</span>
+        <h3 class="main-heading">Transforming Ideas into Outstanding Results</h3>
+        <p class="description">
+          We believe in crafting exceptional experiences that drive meaningful growth for your business. 
+          Our dedicated team combines creativity with technical excellence to deliver solutions that make a difference.
+        </p>
+        <a href="#" class="btn-explore">Explore Our Work</a>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="image/laptp.webp" alt="Service Image" class="service-image">
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="service-card">
+          <span class="service-number">01</span>
+          <h5>Custom Application Dev</h5>
+          <p>Building robust applications tailored to your specific needs using modern frameworks and cutting-edge technologies   cutting-edge ofen.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <span class="service-number">02</span>
+          <h5>Strategic Planning</h5>
+          <p>Comprehensive roadmaps that align technology solutions with your business objectives and market opportunities. business objectives of.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <span class="service-number">03</span>
+          <h5>Identity Design</h5>
+          <p>Creating compelling visual narratives that resonate with your audience and strengthen brand recognition across all touchpoints are.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <span class="service-number">04</span>
+          <h5>Digital Marketing</h5>
+          <p>Maximizing your online presence through targeted campaigns that drive engagement and convert visitors into loyal customers peace.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <span class="service-number">05</span>
+          <h5>User Experience Design</h5>
+          <p>Crafting intuitive interfaces that prioritize user needs while delivering seamless interactions across desktop and mobile platforms.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-card">
+          <span class="service-number">06</span>
+          <h5>Data Intelligence</h5>
+          <p>Transforming raw data into actionable insights that inform strategic decisions and optimize business performance effectively asidee.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- digital experience -->
+<section class="digital-experience">
+  <div class="digital-text">
+    <span class="digital-badge">DON'T MISS!</span>
+    <h1>Revolutionize Your Digital Experience Today</h1>
+    <p>Strategia accelerates your business growth through innovative solutions and cutting-edge technology. Join thousands of satisfied customers who have transformed their operations.</p>
+
+    <div class="digital-features">
+      <span class="digital-feature"><i class="fas fa-check-circle"></i> Premium Support</span>
+      <span class="digital-feature"><i class="fas fa-check-circle"></i> Cloud Integration</span>
+      <span class="digital-feature"><i class="fas fa-check-circle"></i> Real-time Analytics</span>
+    </div>
+    <div class="digital-buttons">
+      <a href="#" class="btn-primary">Start Free Trial</a>
+      <a href="#" class="btn-secondary">Learn More</a>
+    </div>
+  </div>
+   <div class="digital-image">
+    <img src="image/envi.webp" alt="Workspace">
+    <div class="growth-tag">
+      <i class="fas fa-chart-line"></i>
+      <div>
+        <strong>245%</strong><br>
+        Growth Rate
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- testinomial -->
+<section class="testimonials-section">
+    <h2 class="section-title">Testimonials</h2>
+    <p class="section-subtitle">
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    </p>
+    <div class="testimonial-wrapper">
+        <button id="prev" class="nav-btn">&#10094;</button>
+        <div id="testimonial-container" class="testimonial-container">
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Jessica" class="avatar" />
+                <div class="stars">★★★★★</div>
+                <p>Exceptetur sint occaecat cupidatat non proident...</p>
+                <h3>Jessica Martinez</h3>
+                <span>UX Designer</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="David" class="avatar" />
+                <div class="stars">★★★★★</div>
+                <p>Duis aute irure dolor in reprehenderit in voluptate...</p>
+                <h3>David Rodriguez</h3>
+                <span>Software Engineer</span>
+            </div>
+           <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Amanda" class="avatar" />
+                <div class="stars">★★★★★</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <h3>Amanda Wilson</h3>
+                <span>Creative Director</span>
+            </div>
+           <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="John" class="avatar" />
+                <div class="stars">★★★★★</div>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                <h3>John Smith</h3>
+                <span>Project Manager</span>
+            </div>
+           <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Emily" class="avatar" />
+                <div class="stars">★★★★★</div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit...</p>
+                <h3>Emily Davis</h3>
+                <span>Marketing Lead</span>
+            </div>
+           <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Michael" class="avatar" />
+                <div class="stars">★★★★★</div>
+                <p>At vero eos et accusamus et iusto odio dignissimos...</p>
+                <h3>Michael Brown</h3>
+                <span>Product Owner</span>
+            </div>
+        </div>
+<button id="next" class="nav-btn">&#10095;</button>
+    </div>
+</section>
+<!-- Profile images -->
+<section class="stats-section">
+    <div class="stats-container">
+     <div class="stats-images">
+            <img src="image/a1.jpeg" alt="Person 1">
+            <img src="image/a2.jpeg" alt="Person 2">
+            <img src="image/a3.jpeg" alt="Person 3">
+            <img src="image/a4.jpeg" alt="Person 4">
+        </div>
+        <div class="stat-item">
+            <h2>185+</h2>
+            <p>Nemo enim ipsam</p>
+        </div>
+        <div class="stat-item">
+            <h2>32K</h2>
+            <p>Voluptatem sequi</p>
+        </div>
+        <div class="stat-item">
+            <h2>128+</h2>
+            <p>Dolor sit consectetur</p>
+        </div>
+    </div>
+</section>
+<!-- Pricing -->
+<section class="pricing-section">
+    <div class="pricing-header">
+        <h2>Pricing</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+<div class="pricing-cards">
+        <div class="pricing-card">
+            <img class="icon" src="https://img.icons8.com/color/96/000000/box.png" alt="Starter Plan Icon">
+            <h3>Starter</h3>
+            <p class="subtitle">For individuals just getting started</p>
+            <div class="price" data-plan="Starter">
+                <span class="currency">$</span>12<span class="period">/month</span>
+            </div>
+            <ul>
+                <li class="yes">Nullam accumsan lorem</li>
+                <li class="yes">Vestibulum auctor dapibus</li>
+                <li class="yes">Nulla consequat massa</li>
+                <li class="no">In enim justo rhoncus ut</li>
+                <li class="no">Curabitur ullamcorper ultricies</li>
+            </ul>
+            <button data-plan="Starter">Choose Starter</button>
+        </div>
+        <div class="pricing-card popular">
+            <div class="ribbon">Most Popular</div>
+            <img class="icon" src="https://img.icons8.com/color/96/000000/briefcase.png" alt="Professional Plan Icon">
+            <h3>Professional</h3>
+            <p class="subtitle">For small teams and growing businesses</p>
+            <div class="price" data-plan="Professional">
+                <span class="currency">$</span>39<span class="period">/month</span>
+            </div>
+            <ul>
+                <li class="yes">Donec quam felis ultricies</li>
+                <li class="yes">Nam eget dui etiam rhoncus</li>
+                <li class="yes">Maecenas tempus tellus</li>
+                <li class="yes">Donec pede justo fringilla</li>
+                <li class="no">Cras dapibus vivamus</li>
+            </ul>
+            <button data-plan="Professional">Choose Professional</button>
+        </div>
+        <div class="pricing-card">
+            <img class="icon" src="https://img.icons8.com/color/96/000000/company.png" alt="Enterprise Plan Icon">
+            <h3>Enterprise</h3>
+            <p class="subtitle">For large organizations and corporations</p>
+            <div class="price" data-plan="Enterprise">
+                <span class="currency">$</span>79<span class="period">/month</span>
+            </div>
+            <ul>
+                <li class="yes">Etiam sit amet orci eget</li>
+                <li class="yes">Pellentesque posuere vulputate</li>
+                <li class="yes">Quisque rutrum aenean</li>
+                <li class="yes">Fusce vulputate eleifend</li>
+                <li class="yes">Phasellus viverra nulla</li>
+            </ul>
+            <button data-plan="Enterprise">Choose Enterprise</button>
+        </div>
+    </div>
+</section>
+<!-- faq -->
+<section class="faq-section">
+    <div class="faq-container">
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            Vivamus suscipit tortor eget felis porttitor volutpat? <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Curabitur aliquet quam id dui posuere blandit? <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Sed porttitor lectus nibh ullamcorper sit amet? <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Donec sollicitudin molestie malesuada.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Nulla quis lorem ut libero malesuada feugiat? <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Vestibulum ac diam sit amet quam vehicula elementum? <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Pellentesque in ipsum id orci porta dapibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="faq-contact">
+        <div class="icon">💬</div>
+        <h2>Can't find answer to your question?</h2>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+          Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. 
+          Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. 
+          Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat.
+        </p>
+        <button class="contact-btn">Contact Us</button>
+      </div>
+    </div>
+  </section>
+  <div class="team-section">
+    <h2><span>Our Professional Team</span></h2>
+    <p>Meet our skilled professionals who bring creativity, strategy, and expertise to every project we undertake.</p>
+<div class="nav-buttons">
+        <button id="prevBtn">&#8249;</button>
+        <button id="nextBtn">&#8250;</button>
+    </div>
+<div class="team-container">
+        <div class="team-wrapper">
+            <div class="team-card">
+                <img src="image/a1.jpeg" alt="">
+                <div class="team-info">
+                    <h3>Alex Miller</h3>
+                    <h4>Marketing Strategist</h4>
+                    <p>Specializes in creating innovative campaigns that drive engagement and growth.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="image/a2.jpeg" alt="">
+                <div class="team-info">
+                    <h3>Sophia Wang</h3>
+                    <h4>Lead Developer</h4>
+                    <p>Expert in building scalable applications with clean and efficient code.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="image/a3.jpeg" alt="">
+                <div class="team-info">
+                    <h3>David Lee</h3>
+                    <h4>UI/UX Specialist</h4>
+                    <p>Designs intuitive interfaces that enhance user experience and satisfaction.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="image/a4.jpeg" alt="">
+                <div class="team-info">
+                    <h3>Maria Gomez</h3>
+                    <h4>Project Manager</h4>
+                    <p>Ensures smooth project execution with strong leadership and planning skills.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="image/girl.jpeg" alt="">
+                <div class="team-info">
+                    <h3>Ethan Brown</h3>
+                    <h4>Data Analyst</h4>
+                    <p>Transforms raw data into actionable insights to inform business strategies.</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="image/a2.jpeg" alt="">
+                <div class="team-info">
+                    <h3>Olivia Smith</h3>
+                    <h4>Content Creator</h4>
+                    <p>Crafts compelling content that resonates with target audiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="page-header">
+<div class="contact-title">
+    <h1>Contact</h1>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+</div>
+
+<!-- Contact Page Wrapper -->
+<div class="contactpage-wrapper">
+    <div class="contactinfo-section">
+        <h2>Connect With Us</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.</p>
+<div class="contactinfo-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+                <strong>Visit Our Office</strong>
+                <p>1247 Fifth Avenue, Manhattan, NY 10029</p>
+            </div>
+        </div>
+<div class="contactinfo-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+                <strong>Send Email</strong>
+                <p>contact@businessdemo.com</p>
+            </div>
+        </div>
+<div class="contactinfo-card">
+            <i class="fas fa-phone"></i>
+            <div>
+                <strong>Call Direct</strong>
+                <p>+1 (646) 892-3456</p>
+            </div>
+        </div>
+ <div class="contactinfo-card">
+            <i class="fas fa-clock"></i>
+            <div>
+                <strong>Business Hours</strong>
+                <p>Mon-Sat: 8AM - 7PM</p>
+            </div>
+        </div>
+        <div class="sociallinks-section">
+            <p>Follow Our Journey</p>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="contactform-section">
+        <h2>Send Us Message</h2>
+        <p>Ut enim ad minima veniam quis nostrum exercitationem ullamco laboris nisi ut aliquid ex ea commodi consequatur.</p>
+
+        <input type="text" class="forminput-field" placeholder="Full Name">
+        <input type="email" class="forminput-field" placeholder="Email Address">
+        <input type="text" class="forminput-field" placeholder="Phone Number">
+        <input type="text" class="forminput-field" placeholder="Subject">
+        <textarea rows="5" class="formtextarea-field" placeholder="Your Message"></textarea>
+        <button class="formsubmit-button">Send Message →</button>
+    </div>
+
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3 class="footer-logo">MyWebsite</h3>
+        <p>A108 Adam Street<br>New York, NY 535022</p>
+        <p><strong>Phone:</strong> +1 5589 55488 55</p>
+        <p><strong>Email:</strong> info@example.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Product Management</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Hic solutasept</h4>
+        <ul>
+          <li><a href="#">Molestiae accusamus iure</a></li>
+          <li><a href="#">Excepturi dignissimos</a></li>
+          <li><a href="#">Suscipit distinctio</a></li>
+          <li><a href="#">Dilecta</a></li>
+          <li><a href="#">Sit quas consectetur</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-container">
+      <div class="footer-bottom-left">
+        <p>© Copyright <strong>MyWebsite</strong>. All Rights Reserved</p>
+        <p>Designed by <a href="#">BootstrapMade</a></p>
+      </div>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- JS -->
+    <script src="javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
